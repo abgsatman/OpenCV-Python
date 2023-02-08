@@ -8,4 +8,14 @@ brew reinstall python@3.9
 #version control
 >>python3 --version
 
+Pip
+#download pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+#install pip
+python3 get-pip.py
+
 Open CV
+#install
+pip install opencv-python
+
+...success
