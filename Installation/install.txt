@@ -1,0 +1,11 @@
+Python
+
+#MacOS
+#from scratch
+brew install python
+#re-install
+brew reinstall python@3.9
+#version control
+>>python3 --version
+
+Open CV
