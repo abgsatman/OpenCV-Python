@@ -17,5 +17,7 @@ python3 get-pip.py
 Open CV
 #install
 pip install opencv-python
+#install with details
+pip install opencv-python opencv-python-headless
 
 ...success
