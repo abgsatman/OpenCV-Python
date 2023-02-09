@@ -8,6 +8,8 @@ brew reinstall python@3.9
 #version control
 >>python3 --version
 
+###Notice: Python 3.11.2 is the current version
+
 Pip
 #download pip
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
@@ -19,5 +21,10 @@ Open CV
 pip install opencv-python
 #install with details
 pip install opencv-python opencv-python-headless
+
+In case of any possible error
+#error: import cv2 could not be resolved
+##run the following command within the file directory your python file
+pip install opencv-contrib-python
 
 ...success
