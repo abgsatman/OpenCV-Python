@@ -1,3 +1,24 @@
 import cv2
+import keyboard
 
-print("OpenCV Version is:", cv2.__version__)
+def version():
+    print("OpenCV Version is:", cv2.__version__)
+
+def showImage():
+    img = cv2.imread("src/logo.png")
+    size = (400, 800)
+
+    resize =cv2.resize(img, size, img,interpolation = cv2.INTER_AREA)
+    cv2.imshow("resize", resize)
+
+    cv2.waitKey(0)
+
+version()
+showImage()
+
+#while True:
+#    if keyboard.read_key() == "q":
+#        quit()
+
+
+
