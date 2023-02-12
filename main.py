@@ -5,8 +5,8 @@ def version():
     print("OpenCV Version is:", cv2.__version__)
 
 def showImage():
-    img = cv2.imread("src/logo.png")
-    size = (400, 800)
+    img = cv2.imread("src/images/logo.png")
+    size = (500, 500)
 
     resize =cv2.resize(img, size, img,interpolation = cv2.INTER_AREA)
     cv2.imshow("resize", resize)
@@ -15,7 +15,6 @@ def showImage():
 
 version()
 showImage()
-
 #while True:
 #    if keyboard.read_key() == "q":
 #        quit()
