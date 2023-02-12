@@ -26,5 +26,6 @@ In case of any possible error
 #error: import cv2 could not be resolved
 ##run the following command within the file directory your python file
 pip install opencv-contrib-python
+solved with: python3 -m pip install --force-reinstall --no-cache -U opencv-python==4.5.5.62
 
 ...success
